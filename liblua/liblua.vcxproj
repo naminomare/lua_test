@@ -48,6 +48,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lua_5_3_1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -76,39 +77,39 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\lapi.c" />
-    <ClCompile Include="..\..\src\lauxlib.c" />
-    <ClCompile Include="..\..\src\lbaselib.c" />
-    <ClCompile Include="..\..\src\lbitlib.c" />
-    <ClCompile Include="..\..\src\lcode.c" />
-    <ClCompile Include="..\..\src\lcorolib.c" />
-    <ClCompile Include="..\..\src\lctype.c" />
-    <ClCompile Include="..\..\src\ldblib.c" />
-    <ClCompile Include="..\..\src\ldebug.c" />
-    <ClCompile Include="..\..\src\ldo.c" />
-    <ClCompile Include="..\..\src\ldump.c" />
-    <ClCompile Include="..\..\src\lfunc.c" />
-    <ClCompile Include="..\..\src\lgc.c" />
-    <ClCompile Include="..\..\src\linit.c" />
-    <ClCompile Include="..\..\src\liolib.c" />
-    <ClCompile Include="..\..\src\llex.c" />
-    <ClCompile Include="..\..\src\lmathlib.c" />
-    <ClCompile Include="..\..\src\lmem.c" />
-    <ClCompile Include="..\..\src\loadlib.c" />
-    <ClCompile Include="..\..\src\lobject.c" />
-    <ClCompile Include="..\..\src\lopcodes.c" />
-    <ClCompile Include="..\..\src\loslib.c" />
-    <ClCompile Include="..\..\src\lparser.c" />
-    <ClCompile Include="..\..\src\lstate.c" />
-    <ClCompile Include="..\..\src\lstring.c" />
-    <ClCompile Include="..\..\src\lstrlib.c" />
-    <ClCompile Include="..\..\src\ltable.c" />
-    <ClCompile Include="..\..\src\ltablib.c" />
-    <ClCompile Include="..\..\src\ltm.c" />
-    <ClCompile Include="..\..\src\lundump.c" />
-    <ClCompile Include="..\..\src\lutf8lib.c" />
-    <ClCompile Include="..\..\src\lvm.c" />
-    <ClCompile Include="..\..\src\lzio.c" />
+    <ClCompile Include="Core\lapi.c" />
+    <ClCompile Include="Core\lcode.c" />
+    <ClCompile Include="Core\lctype.c" />
+    <ClCompile Include="Core\ldebug.c" />
+    <ClCompile Include="Core\ldo.c" />
+    <ClCompile Include="Core\ldump.c" />
+    <ClCompile Include="Core\lfunc.c" />
+    <ClCompile Include="Core\lgc.c" />
+    <ClCompile Include="Core\linit.c" />
+    <ClCompile Include="Core\llex.c" />
+    <ClCompile Include="Core\lmem.c" />
+    <ClCompile Include="Core\lobject.c" />
+    <ClCompile Include="Core\lopcodes.c" />
+    <ClCompile Include="Core\lparser.c" />
+    <ClCompile Include="Core\lstate.c" />
+    <ClCompile Include="Core\lstring.c" />
+    <ClCompile Include="Core\ltable.c" />
+    <ClCompile Include="Core\ltm.c" />
+    <ClCompile Include="Core\lundump.c" />
+    <ClCompile Include="Core\lvm.c" />
+    <ClCompile Include="Core\lzio.c" />
+    <ClCompile Include="Lib\lauxlib.c" />
+    <ClCompile Include="Lib\lbaselib.c" />
+    <ClCompile Include="Lib\lbitlib.c" />
+    <ClCompile Include="Lib\lcorolib.c" />
+    <ClCompile Include="Lib\ldblib.c" />
+    <ClCompile Include="Lib\liolib.c" />
+    <ClCompile Include="Lib\lmathlib.c" />
+    <ClCompile Include="Lib\loadlib.c" />
+    <ClCompile Include="Lib\loslib.c" />
+    <ClCompile Include="Lib\lstrlib.c" />
+    <ClCompile Include="Lib\ltablib.c" />
+    <ClCompile Include="Lib\lutf8lib.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

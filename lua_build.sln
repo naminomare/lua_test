@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua_build", "lua_build\lua_build.vcxproj", "{2A8586A4-50E8-481B-9F1D-850B3CA315B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{922EB097-39D0-4DC2-AD6D-298BD30EFC99} = {922EB097-39D0-4DC2-AD6D-298BD30EFC99}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liblua", "liblua\liblua.vcxproj", "{922EB097-39D0-4DC2-AD6D-298BD30EFC99}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua_sample", "lua_sample\lua_sample.vcxproj", "{C8195F6D-0BC7-47F3-8F97-534BD5DF3E9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{922EB097-39D0-4DC2-AD6D-298BD30EFC99} = {922EB097-39D0-4DC2-AD6D-298BD30EFC99}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

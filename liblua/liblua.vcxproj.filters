@@ -24,103 +24,103 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\lapi.c">
+    <ClCompile Include="Core\lapi.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lcode.c">
+    <ClCompile Include="Core\lcode.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lctype.c">
+    <ClCompile Include="Core\lctype.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ldebug.c">
+    <ClCompile Include="Core\ldebug.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ldo.c">
+    <ClCompile Include="Core\ldo.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ldump.c">
+    <ClCompile Include="Core\ldump.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lfunc.c">
+    <ClCompile Include="Core\lfunc.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lgc.c">
+    <ClCompile Include="Core\lgc.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\llex.c">
+    <ClCompile Include="Core\linit.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lmem.c">
+    <ClCompile Include="Core\llex.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lobject.c">
+    <ClCompile Include="Core\lmem.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lopcodes.c">
+    <ClCompile Include="Core\lobject.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lparser.c">
+    <ClCompile Include="Core\lopcodes.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lstate.c">
+    <ClCompile Include="Core\lparser.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lstring.c">
+    <ClCompile Include="Core\lstate.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ltable.c">
+    <ClCompile Include="Core\lstring.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ltm.c">
+    <ClCompile Include="Core\ltable.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lundump.c">
+    <ClCompile Include="Core\ltm.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lvm.c">
+    <ClCompile Include="Core\lundump.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lzio.c">
+    <ClCompile Include="Core\lvm.c">
       <Filter>ソース ファイル\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lstrlib.c">
+    <ClCompile Include="Core\lzio.c">
+      <Filter>ソース ファイル\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\lauxlib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ltablib.c">
+    <ClCompile Include="Lib\lbaselib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lauxlib.c">
+    <ClCompile Include="Lib\lbitlib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lbaselib.c">
+    <ClCompile Include="Lib\lcorolib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lbitlib.c">
+    <ClCompile Include="Lib\ldblib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lcorolib.c">
+    <ClCompile Include="Lib\liolib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ldblib.c">
+    <ClCompile Include="Lib\lmathlib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\liolib.c">
+    <ClCompile Include="Lib\loadlib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\lmathlib.c">
+    <ClCompile Include="Lib\loslib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\loslib.c">
+    <ClCompile Include="Lib\lstrlib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\linit.c">
+    <ClCompile Include="Lib\ltablib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\loadlib.c">
-      <Filter>ソース ファイル\Lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\lutf8lib.c">
+    <ClCompile Include="Lib\lutf8lib.c">
       <Filter>ソース ファイル\Lib</Filter>
     </ClCompile>
   </ItemGroup>
