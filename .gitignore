@@ -51,3 +51,6 @@ Debug/lua_sample.ilk
 *.log
 *.tlog
 *.idb
+
+# Visual Studio User File
+*.suo
